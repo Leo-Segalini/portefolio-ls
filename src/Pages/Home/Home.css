@@ -1,0 +1,441 @@
+.home_section_principale {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+/* section principale page d'accueil */
+
+.home_section_secondaire {
+  background-image: url(../../Photos/illustration/page-couverture.webp);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home_section_title {
+  text-align: center;
+  color: white;
+  font-family: "Libre Baskerville", serif;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.home_section_title h1 {
+  font-size: 35px;
+}
+
+.home_section_title h2 {
+  font-size: 65px;
+  margin-top: -20px;
+}
+
+.home_section_title span {
+  color: rgb(255, 0, 0);
+}
+
+.btn_page_me {
+  border: 2px white solid;
+  background-color: transparent;
+  height: 50px;
+  width: 180px;
+  border-radius: 0;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  transition: border 0.5s ease;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.btn_page_me::before {
+  content: "";
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  border-radius: 50% 50% 0 0;
+  transition: all 0.5s;
+  z-index: -1;
+}
+
+.btn_page_me:hover::before {
+  top: 0;
+  border-radius: 0;
+}
+
+.btn_page_me:hover {
+  border: red;
+}
+
+/* section description 2éme */
+
+.home_description {
+  width: 1200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+  height: 350px;
+  margin-bottom: 50px;
+}
+
+.home_description h2 {
+  font-family: "Libre Baskerville", serif;
+  font-size: 35px;
+  width: 45%;
+}
+
+.home_description h2 span {
+  color: red;
+}
+
+.home_separation {
+  border: 3px solid black;
+  height: 100%;
+  margin: 0 15px;
+}
+.home_description_explication {
+  width: 45%;
+}
+
+/* section btn transition */
+
+.btn_page_mid_me {
+  border: 2px black solid;
+  background-color: transparent;
+  height: 50px;
+  width: 180px;
+  border-radius: 0;
+  color: black;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  transition: border 0.5s ease;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.btn_page_mid_me::before {
+  content: "";
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  border-radius: 50% 50% 0 0;
+  transition: all 0.5s;
+  z-index: -1;
+}
+
+.btn_page_mid_me:hover::before {
+  top: 0;
+  border-radius: 0;
+}
+
+.btn_page_mid_me:hover {
+  border: red;
+  color: white;
+}
+
+/* section mes service 3eme */
+
+.home_section_service {
+  width: 1200px;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.home_section_service h2 {
+  font-family: "Libre Baskerville", serif;
+  font-size: 45px;
+}
+
+.home_section_card_service {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.home_service_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  width: 250px;
+  height: 520px;
+}
+
+.home_service_card h4 {
+  text-align: center;
+  font-size: 16px;
+  height: 30px;
+}
+
+.home_service_card h4 span {
+  color: red;
+}
+
+.home_service_card p {
+  text-align: center;
+  font-size: 14px;
+  height: 125px;
+}
+
+/* section portefolio 4eme */
+
+.home_portefolio_section {
+  width: 1200px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding-bottom: 50px;
+}
+
+.home_portefolio_section h2 {
+  font-family: "Libre Baskerville", serif;
+  font-size: 45px;
+}
+
+.home_section_card_projets {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.home_section_card_projets a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  text-decoration: none;
+  width: 100%;
+}
+
+.home_section_card_projets img {
+  width: 400px;
+}
+
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+  .home_section_title {
+    width: 767px;
+  }
+  .home_section_title h1 {
+    font-size: 30px;
+  }
+  .home_section_title h2 {
+    font-size: 45px;
+  }
+  .home_description {
+    width: 767px;
+  }
+
+  .home_description h2 {
+    font-size: 25px;
+    width: 49%;
+  }
+  .home_description_explication {
+    width: 49%;
+    font-size: 15px;
+  }
+
+  .home_section_service {
+    width: 100%;
+    flex-wrap: wrap;
+    height: auto;
+  }
+  
+  .home_section_card_service {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .home_portefolio_section {
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+  }
+  
+  .home_section_card_projets {
+    flex-wrap: wrap;
+  }
+  
+  .home_section_card_projets a {
+    flex-wrap: wrap;
+  }
+  
+  .home_section_card_projets img {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+     
+      
+      .home_section_title {
+        width: 100%;
+      }
+      
+      .home_section_title h1 {
+        font-size: 25px;
+      }
+      
+      .home_section_title h2 {
+        font-size: 35px;
+        margin-top: -10px;
+      }
+      
+      .home_section_title span {
+        color: rgb(255, 0, 0);
+      }
+      
+      .btn_page_me {
+        border: 2px white solid;
+        background-color: transparent;
+        height: 50px;
+        width: 180px;
+        border-radius: 0;
+        color: white;
+        cursor: pointer;
+        font-size: 20px;
+        font-weight: bold;
+        transition: border 0.5s ease;
+        font-family: "Roboto", sans-serif;
+        position: relative;
+        overflow: hidden;
+        z-index: 0;
+      }
+      
+      .btn_page_me::before {
+        content: "";
+        position: absolute;
+        top: 50px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: red;
+        border-radius: 50% 50% 0 0;
+        transition: all 0.5s;
+        z-index: -1;
+      }
+      
+      .btn_page_me:hover::before {
+        top: 0;
+        border-radius: 0;
+      }
+      
+      .btn_page_me:hover {
+        border: red;
+      }
+      
+      /* section description 2éme */
+      
+      .home_description {
+        width: 100%;
+        flex-direction: column;
+        height: auto;
+        margin-bottom: initial;
+      }
+      
+      .home_description h2 {
+        width: 90%;
+        text-align: center;
+      }
+      
+      .home_separation {
+        width: 50%;
+        margin: 15px 0;
+      }
+      .home_description_explication {
+        width: 90%;
+        text-align: center;
+      }
+      
+      /* section mes service 3eme */
+      
+      .home_section_service {
+        width: 100%;
+        height: auto;
+        margin-top: 50px;
+      }
+      
+      .home_section_service h2 {
+        font-size: 35px;
+        text-align: center;
+      }
+      
+      .home_section_card_service {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+      }
+      
+      .home_service_card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        width: 250px;
+        height: auto;
+      }
+      
+      /* section portefolio 4eme */
+      
+      .home_portefolio_section {
+        width: 100%;
+        height: auto;
+      }
+      
+      .home_portefolio_section h2 {
+        font-size: 35px;
+        text-align: center;
+      }
+      
+      .home_section_card_projets {
+        flex-direction: column;
+      }
+      
+      .home_section_card_projets a {
+        flex-direction: column;
+      }
+      
+      .home_section_card_projets img {
+        width: 250px;
+      }
+}

@@ -1,0 +1,142 @@
+.footer_section_principale {
+    background-color: black;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: "Libre Baskerville", serif;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+.footer_section_secondaire {
+    width: 1200px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 30px;
+}
+
+.footer_section_gauche {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    color: white;
+    align-items: center;
+    justify-content: left;
+    gap: 50px;
+}
+
+.footer_section_gauche img {
+    height: 150px;
+    width: 150px;
+}
+
+.titre_contact {
+    font-size: 20px;
+}
+
+.informations_contact {
+    font-size: 13px;
+}
+
+.informations_contact a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+.informations_contact a::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: red;
+    bottom: 0;
+    left: 0;
+    transition: width 0.3s ease;
+}
+
+.informations_contact a:hover::before {
+    width: 100%;
+    left: 0;
+}
+
+.footer_section_droite {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: right;
+    color: rgba(255, 255, 255, 0.6);
+    gap: 30px;
+}
+
+.footer_reseaux {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+}
+
+.footer_mentions {
+    width: 60%;
+    font-size: 14px;
+    text-align: right;
+}
+
+.footer_mentions a {
+    cursor: pointer;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+@media screen and (max-width: 900px) {
+    .footer_section_principale {
+        height: auto;
+        padding-bottom: 20px;
+    }
+    
+    .footer_section_secondaire {
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .footer_section_gauche {
+        flex-direction: column;
+        width: 100%;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        gap: 0;
+        text-align: center;
+    }
+    
+    .informations_contact {
+        font-size: 15px;
+    }
+    
+    .footer_section_droite {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: right;
+    }
+    
+    .footer_reseaux {
+        justify-content: center;
+    }
+    
+    .footer_mentions {
+        width: 80%;
+        font-size: 14px;
+        text-align: center;
+    }
+    
+}
