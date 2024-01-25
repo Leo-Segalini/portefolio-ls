@@ -5,7 +5,6 @@ import Projets from "./Projets/Projets";
 import Me from "./Qui-suis-je/Me";
 import Layout from "./Layout";
 import MentionsLegales from "./MentionsLegales/MentionsLegales";
-import CVG from "./CGV/CVG";
 
 function Router() {
   return (
@@ -16,7 +15,6 @@ function Router() {
         <Route path="/mes_projets/*" element={<Projets />} />
         <Route path="/qui_suis_je/*" element={<Me />} />
         <Route path="/mentions_legales/*" element={<MentionsLegales />} />
-        <Route path="/CGV/*" element={<CVG />} />
       </Route>
     </Routes>
   );

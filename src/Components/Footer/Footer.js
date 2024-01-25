@@ -41,7 +41,6 @@ function Footer() {
           <div className="footer_mentions">
             <span>©2024-2026 Léo Segalini | Tous Droits Réservées | </span>
             <Link to="/mentions_legales">Mentions Légales |</Link>
-            <Link to="/CGV"> CGV</Link>
           </div>
         </div>
       </div>

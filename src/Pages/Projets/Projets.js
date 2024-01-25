@@ -51,10 +51,10 @@ function Projets() {
           </Fade>
         </div>
       </div>
+      <button onClick={openPopup} className="btn_projet_contact">
+        Contactez-moi
+      </button>
       <Fade direction="bottom">
-        <button onClick={openPopup} className="btn_projet_contact">
-          Contactez-moi
-        </button>
         <p className="projet_explications_texte">
           Aujourd'hui, les utilisateurs sont sur toutes les plateformes, il est
           donc primordial d'avoir un <span>site</span> qui s'adapte au type
