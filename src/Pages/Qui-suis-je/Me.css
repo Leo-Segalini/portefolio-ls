@@ -1,0 +1,174 @@
+.me_section_principale {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.me_section_secondaire {
+  background-image: url(../../Photos/illustration/bureau_LS_pic.webp);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 150px;
+}
+
+.me_section_secondaire h1 {
+  font-family: "Libre Baskerville", serif;
+  font-size: 55px;
+  color: red;
+  text-align: center;
+}
+
+.btn_resume_go {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.btn_resume_go:hover {
+  transform: translateY(-5px);
+}
+
+.btn_resume_go:active {
+  transform: translateY(2px);
+}
+
+.me_section_resume {
+  width: 1200px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.me_section_resume p {
+  width: 750px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.me_section_resume span {
+  color: red;
+}
+
+.me_section_parcours {
+  display: flex;
+  width: 1200px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.me_section_parcours h2 {
+  font-family: "Libre Baskerville", serif;
+  font-size: 45px;
+  text-align: center;
+}
+
+.me_section_parcours p {
+  font-size: 18px;
+  text-align: center;
+}
+
+.me_separation {
+  height: 60px;
+  border: 2px solid black;
+  margin: -10px 0;
+}
+
+.me_section_competences {
+  width: 1200px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 50px 0 150px 0;
+}
+
+.me_section_competences h2 {
+  font-family: "Libre Baskerville", serif;
+  font-size: 45px;
+  text-align: center;
+}
+
+.me_section_competences p {
+  font-size: 18px;
+  text-align: center;
+}
+
+.me_section_card_competences {
+  display: flex;
+  width: auto;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 80px;
+}
+
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+  .me_section_competences {
+    width: 900px;
+  }
+
+  .me_section_parcours {
+    width: 900px;
+  }
+
+  .me_section_resume {
+    width: 900px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .me_section_competences {
+    width: auto;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  .me_section_parcours {
+    width: auto;
+  }
+
+  .me_section_resume {
+    width: auto;
+  }
+
+  .me_section_resume {
+    height: auto;
+  }
+
+  .me_section_resume p {
+    width: auto;
+    height: auto;
+    margin: 50px 20px;
+  }
+
+  .me_section_competences h2 {
+    font-size: 25px;
+  }
+
+  .me_section_parcours h2 {
+    font-size: 25px;
+  }
+
+  .me_section_secondaire h1 {
+    font-size: 35px;
+  }
+}
