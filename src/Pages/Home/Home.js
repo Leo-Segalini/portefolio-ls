@@ -16,7 +16,7 @@ function Home() {
     <div className="home_section_principale">
       <div className="home_section_secondaire">
         <div className="home_section_title">
-          <Fade cascade damping={0.5}>
+          <Fade cascade damping={2}>
             <h1>
               Hello ! Moi c'est <span>Léo Segalini</span> et je suis
             </h1>
@@ -31,28 +31,28 @@ function Home() {
         <div className="home_description">
           <h2>
             Je <span>développe</span> des <span>sites</span> et des
-            <span> applications</span> pour tout types de client
+            <span> applications</span> pour tout types de clients.
           </h2>
           <div className="home_separation"></div>
           <div className="home_description_explication">
             <h3>
-              Créer son site internet, son application ou sa boutique en ligne
-              c'est un métier
+              Créer son site internet, son application ou sa boutique en ligne,
+              c'est un métier !
             </h3>
             <p>
-              Hello ! Moi c'est Léo et je suis Développeur Web full stack
+              Hello ! Moi, c'est Léo et je suis Développeur Web full stack
               Freelance à la Réunion. Je travaille dans le monde entier. Mon
-              Objectifs est de vous trouver l'outil adapté pour votre site et
+              Objectif est de vous trouver l'outil adapté pour votre site et
               votre besoin. <br />
               <br />
-              Aujourd'hui beaucoup de site son créer avec des outils pas adaptés
-              et qui coutent cher. Ce que je souhaite c'est vous accompagner
-              dans l'ensemble des étapes permettant la création de votre site ou
-              application.
+              Aujourd'hui beaucoup de sites son créer avec des outils pas
+              adaptés et qui coûtent cher. Ce que je souhaite, c'est vous
+              accompagner dans l'ensemble des étapes permettant la création de
+              votre site ou application.
               <br />
               <br />
               Boutique en ligne, landing page, application mobile... De
-              l'indépendant aux entreprises, je suis la pour vous aider à vous
+              l'indépendant aux entreprises, je suis là pour vous aider à vous
               mettre en avant sur le web via un site de qualité.
             </p>
           </div>
@@ -88,10 +88,10 @@ function Home() {
                 <span>Site</span> Web et <span>Boutique</span> en ligne
               </h4>
               <p>
-                De nos jours un site web est un indispensable pour mettre en
-                avant notre univers professionnel. Je suis la pour qu'ensemble
+                De nos jours, un site web est un indispensable pour mettre en
+                avant notre univers professionnel. Je suis là pour qu'ensemble,
                 on puisse créer une plateforme qui vous correspond et qui soit
-                adapté à vos besoins.
+                adaptée à vos besoins.
               </p>
             </div>
           </Fade>
@@ -105,11 +105,11 @@ function Home() {
                 Analyse des <span>performances</span> du site
               </h4>
               <p>
-                Un site c'est bien, mais si les performances ne sont pas là
-                alors votre visibilité au yeux de vos clients sera nul. Un
-                suivis régulier des besoins de vos clients est indispensable
-                pour améliorer les performances de votre site et donc son
-                référencement sur internet.
+                Un site, c'est bien, mais si les performances ne sont pas là
+                alors votre visibilité aux yeux de vos clients sera nul. Un
+                suivi régulier des besoins de vos clients est indispensable pour
+                améliorer les performances de votre site et donc son
+                référencement sur le web.
               </p>
             </div>
           </Fade>
@@ -123,10 +123,10 @@ function Home() {
                 <span>Securisation</span> des données client et des votres
               </h4>
               <p>
-                Beaucoup de site sont développé sans sécurité, et les données
-                des clients sont un point clés. Il faut les protéger, c'est pour
+                Beaucoup de sites sont développés sans sécurité, et les données
+                des clients sont un point clé. Il faut les protéger, c'est pour
                 ça que je souhaite vous aider à mieux comprendre les enjeux de
-                sécurité dans le domaine du web pour que vos clients est
+                sécurité dans le domaine du web pour que vos clients aient
                 confiance en vous.
               </p>
             </div>
