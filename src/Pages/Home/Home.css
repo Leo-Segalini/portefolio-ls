@@ -414,6 +414,11 @@
         width: 250px;
         height: auto;
       }
+
+      .home_service_card img {
+        width: auto;
+        height: 200px;
+      }
       
       /* section portefolio 4eme */
       
