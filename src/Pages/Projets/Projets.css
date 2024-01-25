@@ -13,7 +13,7 @@
 
 .projet_section_secondaire {
     background-image: url(../../Photos/illustration/pc_bureau_projet.webp);
-    background-position: center center;
+    background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -37,7 +37,7 @@
 .projet_section_tertiaire h1 {
   font-family: "Libre Baskerville", serif;
   font-size: 55px;
-  color: white;
+  color: red;
 }
 
 
@@ -51,13 +51,13 @@
 /* btn transition */
 
 .btn_projet_contact {
-    border: 2px black solid;
+    border: 2px red solid;
     background-color: transparent;
     margin-top: -25px;
     height: 50px;
     width: 180px;
     border-radius: 0;
-    color: black;
+    color: red;
     cursor: pointer;
     font-size: 20px;
     font-weight: bold;
