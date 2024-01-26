@@ -84,9 +84,9 @@ function Home() {
                 src={illus_pic}
                 alt="illustation pc, illustration services"
               />
-              <h4>
+              <h3>
                 <span>Site</span> Web et <span>Boutique</span> en ligne
-              </h4>
+              </h3>
               <p>
                 De nos jours, un site web est un indispensable pour mettre en
                 avant notre univers professionnel. Je suis là pour qu'ensemble,
@@ -101,9 +101,9 @@ function Home() {
                 src={stats_icon}
                 alt="illustration statistique, illutration services LS"
               />
-              <h4>
+              <h3>
                 Analyse des <span>performances</span> du site
-              </h4>
+              </h3>
               <p>
                 Un site, c'est bien, mais si les performances ne sont pas là
                 alors votre visibilité aux yeux de vos clients sera nul. Un
@@ -119,9 +119,9 @@ function Home() {
                 src={security_icon}
                 alt="illustration security_icon, security_icon LS"
               />
-              <h4>
+              <h3>
                 <span>Securisation</span> des données client et des votres
-              </h4>
+              </h3>
               <p>
                 Beaucoup de sites sont développés sans sécurité, et les données
                 des clients sont un point clé. Il faut les protéger, c'est pour
