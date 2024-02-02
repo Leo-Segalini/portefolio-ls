@@ -15,6 +15,7 @@
   background-image: url(../../Photos/illustration/bureau_LS_pic.webp);
   background-position: center center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
   height: 100vh;
   width: 100%;

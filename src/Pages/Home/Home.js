@@ -60,7 +60,7 @@ function Home() {
       </Fade>
       <Fade triggerOnce>
         <div className="btn_home_mid_me">
-          <Link to="/qui_suis_je">
+          <Link to="www.leo-segalini.re/qui_suis_je">
             <button className="btn_page_mid_me">En savoir +</button>
           </Link>
         </div>
