@@ -10,6 +10,7 @@ import "./Projets.css";
 import site_film from "../../Photos/portefolio-pic/site-film.webp";
 import site_RM from "../../Photos/portefolio-pic/site-R&M.webp";
 import site_portefolio from "../../Photos/portefolio-pic/site-portefolio.webp";
+import site_foodiroma from "../../Photos/portefolio-pic/foodiroma.webp";
 import icon_ecran from "../../Photos/portefolio-pic/icon-ecran.webp";
 import Typewriter from "typewriter-effect";
 import { Fade } from "react-awesome-reveal";
@@ -65,6 +66,32 @@ function Projets() {
           <span>application</span> reste ergonomique et fluide d'utilisation.
         </p>
       </Fade>
+      <div className="projet_carousel_section">
+        <h2>2024</h2>
+        <Swiper
+          slidesPerView={4}
+          spaceBetween={30}
+          centeredSlides={true}
+          pagination={{
+            clickable: true,
+          }}
+          modules={[Pagination]}
+          className="mySwiper"
+        >
+          <SwiperSlide>
+            <Link
+              to="https://foodiroma.re/"
+              target="blank"
+            >
+              <img
+                src={site_foodiroma}
+                alt="site web foodiroma, wordpress, responsive, webp, Léo Segalini, LS"
+              />
+            </Link>
+            <h3>Site pour une restauratrice foodiroma, fait en wordpress et elementor.</h3>
+          </SwiperSlide>
+        </Swiper>
+      </div>
       <div className="projet_carousel_section">
         <h2>2023</h2>
         <Swiper

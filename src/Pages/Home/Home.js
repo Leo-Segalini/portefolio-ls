@@ -6,6 +6,7 @@ import security_icon from "../../Photos/svg/security_icon.svg";
 import site_film from "../../Photos/portefolio-pic/site-film.webp";
 import site_RM from "../../Photos/portefolio-pic/site-R&M.webp";
 import site_portefolio from "../../Photos/portefolio-pic/site-portefolio.webp";
+import site_foodiroma from "../../Photos/portefolio-pic/foodiroma.webp";
 import "./Home.css";
 import { Link } from "react-router-dom";
 import Typewriter from "typewriter-effect";
@@ -147,6 +148,12 @@ function Home() {
         </h2>
         <div className="home_section_card_projets">
           <Link to="/mes_projets">
+            <Fade direction="up">
+              <img
+                src={site_foodiroma}
+                alt="site foodiroma, LS site restaurant, wordpress, elementor"
+              />
+            </Fade>
             <Fade direction="left">
               <img
                 src={site_film}
